@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   
+    <!-- <script>
+        function mybtn(){
+            let Mybt=document.createElement("button");
+            Mybt.innerHTML="hello Buddy";
+            document.body.appendChild(Mybt);
+        }
+    </script> -->
+
+    <script>
+     function AddText(){
+        let mytxt=document.createElement("input");
+        mytxt.type="text";
+        document.getElementById('mybox').appendChild(mytxt);
+     }
+    </script>
+</head>
+<body>
+      <!-- <button onclick="mybtn()"> Click here</button> -->
+
+   enter City :- <input type="text" name=""><button onclick="AddText()">Add more</button>
+ 
+   <div id="mybox">
+
+   </div>
+
+
+</body>
+</html>
